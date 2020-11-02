@@ -1,65 +1,38 @@
 import Head from 'next/head'
+import Layout, {siteTitle} from '../components/layout'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+    return (
+        <Layout>
+            <Head>
+                <title>{siteTitle}</title>
+            </Head>
+            <h1 className={styles.title}>
+                Hi, I'm Vincent Leong
+            </h1>
+            <p className={styles.paragraphs}>
+                I'm Vincent Leong, a MEng Computer Science student currently studying in University College London.
+                The world has demonstrated how the personal computer is able to change my life from my early childhood,
+                and
+                I believe that with the future promising us with more fascinating and incredible advancements, we would
+                be
+                able to use the rocks that we taught to think to further better our lives.
             </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+            <p className={styles.paragraphs}>
+                I am very interested in the Natural Language Processing branch of Machine Learning, and I hope to use
+                the
+                advancements to bridge the communication gap between humans and machine. While I mainly use Python and
+                Java
+                there is nothing stopping me from learning more, and I frequently pick up new skills to code in more
+                adventurous
+                waters.
+            </p>
+            <p className={styles.paragraphs}>
+                During the times when I am not sitting in front of a computer coding, I like to study calligraphy and
+                maps.
+                I also like reading books in all the languages I can understand, as well as some that I don't.
+            </p>
+        </Layout>
+    )
 }
