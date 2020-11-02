@@ -1,0 +1,17 @@
+.cv {
+    width:100%;
+}
+
+.cvItem h2 {
+    margin:0;
+}
+.cvItem h4 {
+    margin:0.5rem 0;
+}
+
+.mainHead {
+    display:block;
+    width:100%;
+    text-align:left;
+    border-bottom:#5c6d70 solid 2px;
+}

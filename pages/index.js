@@ -4,14 +4,14 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-        <Layout>
+        <Layout currentPage={"Home"}>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
             <h1 className={styles.title}>
-                Hi, I'm Vincent Leong
+                Hi, I'm Vincent Leong.
             </h1>
-            <p className={styles.paragraphs}>
+            <p>
                 I'm Vincent Leong, a MEng Computer Science student currently studying in University College London.
                 The world has demonstrated how the personal computer is able to change my life from my early childhood,
                 and
@@ -19,7 +19,7 @@ export default function Home() {
                 be
                 able to use the rocks that we taught to think to further better our lives.
             </p>
-            <p className={styles.paragraphs}>
+            <p>
                 I am very interested in the Natural Language Processing branch of Machine Learning, and I hope to use
                 the
                 advancements to bridge the communication gap between humans and machine. While I mainly use Python and
@@ -28,7 +28,7 @@ export default function Home() {
                 adventurous
                 waters.
             </p>
-            <p className={styles.paragraphs}>
+            <p>
                 During the times when I am not sitting in front of a computer coding, I like to study calligraphy and
                 maps.
                 I also like reading books in all the languages I can understand, as well as some that I don't.

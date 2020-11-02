@@ -26,6 +26,29 @@
   align-items:center;
 }
 
+.navSelected {
+  padding:0.5rem;
+  width:100%;
+  background-color:#a37774;
+}
+
+.navIconRow{
+  padding:0.5rem;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.navIcon{
+  height:2.5em;
+  margin:0 0.5em 0 0.5em;
+}
+
+.navGithub:hover{
+
+}
+
 .navItem {
   padding: 0.5rem;
   width:100%;
@@ -36,6 +59,7 @@
   cursor:pointer;
 }
 
+
 .content {
   padding: 2rem 0;
   max-width: 700px;
@@ -44,12 +68,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start
 }
 
-.paragraphs {
-  font-size:1.25rem;
-}
+
 
 .footer {
   width: 100%;
@@ -99,6 +121,7 @@
 
 .code {
   background: #fafafa;
+  color:#484a47;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;

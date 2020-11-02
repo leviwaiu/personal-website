@@ -5,8 +5,7 @@ import styles from "../styles/Home.module.css"
 
 export const siteTitle = "Vincent Leong - leviwaiu"
 
-
-export default function Layout({children, currentSubPage, allSubPages}) {
+export default function Layout({children, currentPage, allSubPages}) {
     return <div className={styles.container}>
         <Head>
             <link rel={"apple-touch-icon"} sizes={"180x180"} href={"/favicon/apple-touch-icon.png"} />
@@ -22,19 +21,29 @@ export default function Layout({children, currentSubPage, allSubPages}) {
         <main className={styles.main}>
             <div className={styles.navigation}>
                 <h1>leviwaiu.</h1>
-                <Link href={'/'}><div className={styles.navItem}>
+
+                <div className={styles.navIconRow}>
+                    <a href={'https://github.com/leviwaiu'}>
+                        <img src={'/github.png'} alt={"Github"} className={styles.navIcon}/>
+                    </a>
+                    <a href={'https://www.linkedin.com/in/vincent-wai-u-leong-977655173/'}>
+                        <img src={'/linkedin.png'} alt={"LinkedIn"} className={styles.navIcon}/>
+                    </a>
+                </div>
+
+                <Link href={'/'}><div className={currentPage === "Home" ? styles.navSelected:styles.navItem}>
                     <a>Home</a>
                 </div></Link>
-                <Link href={'/projects'}><div className={styles.navItem}>
+                <Link href={'/projects'}><div className={currentPage === "Projects" ? styles.navSelected:styles.navItem}>
                     <a>Projects</a>
                 </div></Link>
-                <Link href={'/thoughts'}><div className={styles.navItem}>
+                <Link href={'/thoughts'}><div className={currentPage === "Thoughts" ? styles.navSelected:styles.navItem}>
                     <a>Thoughts</a>
                 </div></Link>
-                <Link href={'/cv'}><div className={styles.navItem}>
+                <Link href={'/cv'}><div className={currentPage === "CV/Resume" ? styles.navSelected:styles.navItem}>
                     <a>CV/Resume</a>
                 </div></Link>
-                <Link href={'/contact'}><div className={styles.navItem}>
+                <Link href={'/contact'}><div className={currentPage === "Contact" ? styles.navSelected:styles.navItem}>
                     <a>Contact</a>
                 </div></Link>
             </div>

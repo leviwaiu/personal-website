@@ -6,6 +6,9 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: #484a47;
   color:#eaeaea;
+
+  -ms-overflow-style: none;
+  scrollbar-width:none;
 }
 
 a {
@@ -13,6 +16,14 @@ a {
   text-decoration: none;
 }
 
+p{
+  font-size:1.1rem;
+}
+
 * {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display:none;
 }
