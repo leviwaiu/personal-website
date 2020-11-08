@@ -13,6 +13,7 @@ export default function Projects(){
                 the impression that they are too unpolished. With much of those works now lost, I have decided to document
                 my further projects starting now. As a result, this page would not be finished for quite a long while.
             </p>
+            <p> I have broke this page, sorry for the emptiness.</p>
         </Layout>
     )
 }

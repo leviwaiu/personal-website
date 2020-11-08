@@ -1,0 +1,7 @@
+.thoughtTitle *{
+    margin: 5px;
+}
+
+.thoughtTitle:hover{
+    cursor:pointer;
+}
