@@ -20,6 +20,8 @@ export default function Layout({children, currentPage, allSubPages}) {
         </Head>
         <main className={styles.main}>
             <div className={styles.navigation}>
+                <img src={'/profilepic.png'} alt={"Profile Picture"} className={styles.profilePic}/>
+
                 <h1>leviwaiu.</h1>
 
                 <div className={styles.navIconRow}>

@@ -10,15 +10,14 @@ export default function Projects(){
             </Head>
             <h1>Personal Projects</h1>
             <p>
-                I have to admit that I previously did not bother to upload much of my personal projects to github, with
-                the impression that they are too unpolished. With much of those works now lost, I have decided to document
-                my further projects starting now. As a result, this page would not be finished for quite a long while.
+                Some descriptions of the work that I have done to improve my case that I am not a totally incompetent
+                programmer. Some links are even included for extra brownie points.
             </p>
-            <h3>Macau Bus API</h3>
+            <h3>KORTED: Kind of Real Time Event Detection</h3>
             <p>
-                The buses from my hometown, Macau, has actually very few resources in the web to make it easier for
-                calculations. To improve the situation, I am currently developing an API to access the more basic parts
-                of their information. Links and such would be provided later.
+                As part of a research project during my penultimate year as a undergraduate student, I have contributed
+                towards the development of a Event Detection programme that is used to look at events based on tweets and
+                texts on social media. Notable that it uses completely synthesized data and is therefore very configurable.
             </p>
             <h3>Word2Vec Experimentation</h3>
             <p>
