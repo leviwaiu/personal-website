@@ -13,6 +13,12 @@ export default function Projects(){
                 Some descriptions of the work that I have done to improve my case that I am not a totally incompetent
                 programmer. Some links are even included for extra brownie points.
             </p>
+            <h3>Tippy: CLI Anilist Manager</h3>
+            <p>
+                Written due to wanting a terminal interface that mimics the functionality (somewhat) than taiga. Current
+                work in progress (though progress is being generous due to coursework). Currently able to view and edit
+                your current list.
+            </p>
             <h3>KORTED: Kind of Real Time Event Detection</h3>
             <p>
                 As part of a research project during my penultimate year as a undergraduate student, I have contributed

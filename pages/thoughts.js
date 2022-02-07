@@ -21,7 +21,6 @@ export default function Thoughts({allThoughtsData}){
             </Head>
             <h1>Thoughts from My Mind</h1>
             <p>These are my current thoughts that originated from my mind. Updated irregularly.</p>
-            <hr />
             {allThoughtsData.map(({id, date, title}) => (
                     <Link href={`/thoughts/${id}`}>
                         <div className={thought_style.thoughtTitle}>

@@ -9,7 +9,7 @@ export default function Layout({children, currentPage, allSubPages}) {
     return <div className={styles.container}>
         <Head>
             <link rel={"apple-touch-icon"} sizes={"180x180"} href={"/favicon/apple-touch-icon.png"} />
-            <link rel={"icon"} type={"image/png"} sizes={"32x32"} href={"/favicon/favicon-32x32.png"} />
+            <link rel={"icon"} type={"image/png"} sizes={"32x32"} href={"/favicon/favicon-32x32.ico"} />
             <link rel={"manifest"} href={"/favicon/site.webmanifest"} />
 
             <meta name={"description"} content={"Vincent Leong's Personal Website"} />
@@ -54,7 +54,7 @@ export default function Layout({children, currentPage, allSubPages}) {
             </div>
         </main>
         <footer className={styles.footer}>
-            <p>2020 Vincent Leong</p>
+            <p>2020-2022 Vincent Leong</p>
         </footer>
     </div>
 }

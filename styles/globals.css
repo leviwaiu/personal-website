@@ -4,15 +4,15 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #484a47;
-  color:#eaeaea;
+  background: #393b42;
+  color:#F2EAED;
 
   -ms-overflow-style: none;
   scrollbar-width:none;
 }
 
 a {
-  color: #a37774;
+  color: #48ABC8;
   text-decoration: none;
 }
 
@@ -31,3 +31,4 @@ p{
 hr {
   width:95%
 }
+

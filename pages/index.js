@@ -25,7 +25,8 @@ export default function Home() {
             <p>
                 During the times when I am not sitting in front of a computer coding, I like to study calligraphy and maps.
                 I also like reading books in all the languages I can understand, as well as some that I don't. Recently
-                I also to happen to pick up on keyboards.
+                I also happened to pick up on keyboards recently, and have spent probably too much time and money on it
+                to be considered reasonable by any normal person.
             </p>
         </Layout>
     )

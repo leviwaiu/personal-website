@@ -9,8 +9,9 @@
     "build-static": "next build && next export"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001307",
     "gray-matter": "^4.0.2",
-    "next": "10.0.0",
+    "next": "^12.0.10",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "remark-html": "^13.0.1"

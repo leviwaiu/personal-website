@@ -1,16 +1,20 @@
 ---
-title: 'Finishing My Own Website'
+title: 'Why I wrote my own website.'
 date: '2020-11-07'
 ---
 
-Well, after promising myself to finish writing my own website for so long, I have finally done it. It was no big deal,
-just something I had come up with in Next.js and then compiling them into a static website, but it was considerably more
-work than I had thought, and I think much more about front-end developers now.
+This is only a test entry for the finally completed thoughts page.
 
-I think I would like to work more on the website, but then there are a lot of other stuff to do. I still need to find
-my old projects that still have some form of files and maybe finish them, because the projects tab is looking kind of
-empty right now.
+Despite there being many templates for much better looking and functional websites, I still insist on writing my own
+webpage for my new website, even with the time and energy constraints I already have. The reasoning is simple: this is 
+my own first impression for many strangers that may or may not exist on the internet, and I believe that the front door
+should be a representation of what I am as a person, as well as what I believe in.
 
-I would probably need to familiarise myself with Markdown again, given that this is now written in that. Hopefully this
-investment in ease of input would result in me writing more of this. Until then, I will try and polish the website a bit
-more I think.
+I do believe that many of the websites that are currently deployed to be painfully bloated and contains too much
+unnecessary fluff that are not essential for the website, or even essential to deliver a nice looking website. I do not
+need an entire framework for this website strictly (though I did use one as an excuse to gain more experience in it, so
+I am kind of hypocritical in that regard), and through using a static website generator I can deliver the same website
+as many other frameworks with much less of the overhead.
+
+As such, despite there being many other, easier functions of the internet, I still wrote my own implementation and my 
+own website. This is my front door, and I hope you enjoy it.
