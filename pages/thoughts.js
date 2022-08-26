@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import {getSortedThoughts} from "../lib/thoughts";
 import thought_style from "../styles/thought.module.css"
+import React from "react";
 
 export async function getStaticProps() {
     const allThoughtsData = getSortedThoughts()

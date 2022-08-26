@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Head from "next/head";
 
 import style_cv from "../styles/CV.module.css"
+import React from "react";
 
 export default function Cv(){
     return (

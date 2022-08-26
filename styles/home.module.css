@@ -29,11 +29,11 @@
 .navSelected {
   padding:0.5rem;
   width:100%;
-  background-color:#003153;
+  background-color: var(--accent);
 }
 
 .navSelected a{
-  color:#F2EAED;
+  color: var(--text);
 }
 
 .navIconRow{
@@ -59,11 +59,11 @@
 }
 
 .navItem *{
-  color:#F2EAED;
+  color: var(--text);
 }
 
 .navItem:hover{
-  background-color:#003153;
+  background-color: var(--accent);
   cursor:pointer;
 }
 
@@ -83,7 +83,7 @@
 .footer {
   width: 100%;
   height: 100px;
-  border-top: 1px solid #F2EAED;
+  border-top: 1px solid var(--text);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@
 
 
 .code {
-  background: #F2EAED;
+  background: var(--text);
   color:#484a47;
   border-radius: 5px;
   padding: 0.75rem;
@@ -128,7 +128,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #F2EAED;
+  border: 1px solid var(--text);
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }

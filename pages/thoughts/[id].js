@@ -2,6 +2,7 @@ import Layout from '../../components/layout'
 import {getAllThoughtId, getThoughtData} from "../../lib/thoughts";
 import Head from 'next/head';
 import Link from "next/link";
+import React from "react";
 
 export async function getStaticPaths() {
     const paths = getAllThoughtId()

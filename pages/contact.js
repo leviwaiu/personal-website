@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Head from "next/head";
 
 import styles from "../styles/home.module.css";
+import React from "react";
 
 export default function Contact(){
     return (

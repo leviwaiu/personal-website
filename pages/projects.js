@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import Link from "next/link";
+import React from "react";
 
 export default function Projects(){
     return (
