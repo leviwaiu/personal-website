@@ -17,9 +17,10 @@ export default function Projects(){
             <h3>Tippy: CLI Anilist Manager</h3>
             <p>
                 Written due to wanting a terminal interface that mimics the functionality (somewhat) than taiga. Current
-                work in progress (though progress is being generous due to coursework). Currently able to view and edit
-                your current list.
+                work in progress (though progress is being generous), with basic features already implemente.
+                Currently able to view and edit your current list, as well as very basic search.
             </p>
+            Github Link:<Link href={"https://github.com/leviwaiu/tippy"}>https://github.com/leviwaiu/tippy</Link>
             <h3>KORTED: Kind of Real Time Event Detection</h3>
             <p>
                 As part of a research project during my penultimate year as a undergraduate student, I have contributed

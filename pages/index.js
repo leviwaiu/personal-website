@@ -13,7 +13,7 @@ export default function Home() {
                 Hi, I'm Vincent Leong.
             </h1>
             <p>
-                I'm Vincent Leong, a MEng Computer Science student currently studying in University College London.
+                I'm Vincent Leong, a MEng Computer Science graduate with First Class Honours from University College London.
                 The world has demonstrated how the personal computer is able to change my life from my early childhood, and
                 I believe that with the future promising us with more fascinating and incredible advancements, we would be
                 able to use the rocks that we taught to think to further better our lives.
